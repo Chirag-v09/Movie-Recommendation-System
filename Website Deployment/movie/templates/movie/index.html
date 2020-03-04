@@ -1,0 +1,30 @@
+<head>
+    <h1> Movie Recommendation System </h1>
+
+    <script type="text/javascript">
+        function fn1()
+        {
+            var str = document.getElementById("text1").value;
+            url = "/movie/"
+            url = url.concat(str)
+            location.replace(url)
+        }
+
+    </script>
+
+</head>
+<body>
+
+<input id="text1" placeholder="Enter Movie Name">
+<br>
+<br>
+<button onclick="fn1()" id="btn1"> Submit </button>
+
+<ul>
+    {% for movie in movies %}
+    <li> <strong> <i> <b> {{ movie }} </b> <a href="{% url 'movie:details' movie %}" > click </a> </i> </strong> </li>
+    {% endfor %}
+</ul>
+
+</body>
+<!-- "/movie/{{movie}}" -->

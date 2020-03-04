@@ -1,0 +1,14 @@
+<head>
+    <h1> Recommended Movies for " {{ main_movie }} " are:- </h1>
+</head>
+
+<body>
+<ol>
+    {% for movie in movies %}
+    <li> <i> <b> {{ movie }} </b> <a href="{% url 'movie:details' movie %}" > click </a> </i> </li>
+    {% endfor %}
+</ol>
+
+<p> <a href="{% url 'movie:index' %}"> Home </a> </p>
+</body>
+<!-- "/movie/{{movie}}" -->
