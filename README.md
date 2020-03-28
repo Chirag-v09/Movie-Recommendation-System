@@ -8,10 +8,10 @@ Here I deploy the project of Recommendation System on the WebServer.
 Now the only part left is to make the UI i.e html templates to make it more attaractive to a User.
 ## -
 
-<img src="Recommendation_initial.JPG" width=50% height=50%>
-## --
+<img src="Recommendation_initial.JPG" width=50% height=50%>.
+## -
 
-<img src="Recommendation_HomePage.JPG" width=50% height=50%>
-## --
+<img src="Recommendation_HomePage.JPG" width=50% height=50%>.
+## -
 
-<img src="Recommendation_Showing.JPG" width=50% height=50%>
+<img src="Recommendation_Showing.JPG" width=50% height=50%>.
