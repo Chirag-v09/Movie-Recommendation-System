@@ -9,9 +9,9 @@ Now the only part left is to make the UI i.e html templates to make it more atta
 ## -
 
 <img src="Recommendation_initial.JPG" width=50% height=50%>
-## -
+## --
 
 <img src="Recommendation_HomePage.JPG" width=50% height=50%>
-## -
+## --
 
 <img src="Recommendation_Showing.JPG" width=50% height=50%>
